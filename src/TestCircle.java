@@ -8,6 +8,6 @@ public class TestCircle {
 
         Circle circle = new Circle();
         System.out.println("dien tich hinh tron la:");
-        System.out.println(circle.getArea());
+        System.out.println(circle.getArea(radius));
     }
 }

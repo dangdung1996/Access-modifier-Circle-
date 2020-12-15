@@ -28,7 +28,7 @@ public class Circle {
         this.color = color;
     }
 
-    public double getArea() {
+    public double getArea(double radius) {
         return radius * radius * Math.PI;
     }
 
